@@ -41,7 +41,7 @@ data class BandNr(
          * Source: [3GPP 38.101-1 specification for NR](https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=3283)
          * 5.4.2.1 NR-ARFCN and channel raster
          */
-        const val DOWNLINK_ARFCN_MAX = 2_016_666L
+        const val DOWNLINK_ARFCN_MAX = 3_279_165L
 
 
         internal val DOWNLINK_EARFCN_RANGE = DOWNLINK_ARFCN_MIN..DOWNLINK_ARFCN_MAX
